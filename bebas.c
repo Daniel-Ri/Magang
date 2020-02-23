@@ -41,7 +41,7 @@ return jumlah;
 void ModNumber (int X, int Y){
     /* Implementasikan di sini */
     /* KAMUS LOKAL */
-    Int m; //untuk menghitung hasil modulu 
+    int m == 0; //untuk menghitung hasil modulu 
 
     /* ALGORITMA */
     m = X % Y;
