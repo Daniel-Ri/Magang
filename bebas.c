@@ -57,7 +57,13 @@ int TambahOrKurang (int A, int B, int C){
 boolean IsPrima (int X){
     /* Implementasikan di sini */
     /* KAMUS LOKAL */
-
+    boolean prima; // untuk menetukan apakah x prima atau bukan
     /* ALGORITMA */
+    if ( X==2 || X==3 || X==5 || X==7) {
+        prima = true;
+    } else {
+        prima = false;
+    }
 
+    return prima;
 }
