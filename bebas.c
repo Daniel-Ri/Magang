@@ -8,8 +8,8 @@
 void PrintHaiNTimes (int N) {
     /* Implementasikan di sini */
     /* KAMUS LOKAL */
-    int i; // untuk looping
-    i ++ // untuk menaikkan nilai variabel i sebanyak 1 angka
+    // int i; (untuk looping)
+    // i ++ (untuk menaikkan nilai variabel i sebanyak 1 angka)
     /* ALGORITMA */
 	  int i;
 		  for (i = 1; i<=N; i++) {
