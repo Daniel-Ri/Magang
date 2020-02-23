@@ -53,8 +53,8 @@ void ModNumber (int X, int Y){
 /* Contoh : X = 10; Y = 3
    Output : 
    Hasil dari 10 mod 3 adalah 1 */
-   int Z = Z%Y;
-   cout<<"Hasil dari " +ke_str(X) + " mod "+ke_str(Y)+" adalah " ke_str(Z)<<endl;
+   int m = X % Y;
+   cout<<"Hasil dari " +ke_str(X)+ " mod " +ke_str(Y)+ " adalah " ke_str(m)<<endl;
 
 }
 int TambahOrKurang (int A, int B, int C);
