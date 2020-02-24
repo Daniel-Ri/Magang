@@ -4,6 +4,7 @@
 
 #include <stdio.h>
 #include "bebas.h"
+#include "bebas.c"
 
 int main() {
     /* KAMUS */
