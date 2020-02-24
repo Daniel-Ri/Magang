@@ -16,7 +16,7 @@ void PrintHaiNTimes (int N) {
 		  printf("Hai \n");
 		  }
 		  
-    }
+}
 void GanjilOrGenap (int X){
 /* Jika X adalah bilangan ganjil maka muncul pesan
 */
@@ -63,11 +63,25 @@ void ModNumber (int X, int Y){
 }
 
 int TambahOrKurang (int A, int B, int C){
-    /* Implementasikan di sini */
-    /* KAMUS LOKAL */
-
+    /* Menambah atau mengurangkan B dengan C sesuai instruksi pada A */
+    /* A adalah bilangan yang menunjukkan operasi apa yang digunakan, B dan C yang dioperasikan */
+    int D;
     /* ALGORITMA */
-
+    printf("Masukkan A: ");
+    scanf("%d", &A);
+    printf("Masukkan B: ");
+    scanf("%d", &B);
+    printf("Masukkan C: ");
+    scanf("%d", &C);
+    if (A%2==0){
+        D=B-C;
+    }
+    else {
+    	D=B+C;
+	}
+	printf("Hasilnya adalah = %d",D);
+	
+	return 0;
 }
 
 boolean IsPrima (int X){
