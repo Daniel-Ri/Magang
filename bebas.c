@@ -18,12 +18,19 @@ void PrintHaiNTimes (int N) {
 		  return 0;
     }
 
-void GanjilOrGenap (int X) {
-    /* Implementasikan di sini */
-    /* KAMUS LOKAL */
+void GanjilOrGenap (int X){
+/* Jika X adalah bilangan ganjil maka muncul pesan
+*/
+/*    std::string Xstr = to_string(X);
+*/
 
-    /* ALGORITMA */
-
+    string Xstr = ke_str(X);
+	if(X%2==0){
+		printf(Xstr +" adalah bilangan genap\n",);
+	}
+	else{
+		printf(Xstr + " adalah bilangan ganjil\n",);
+	}
 }
 
 int DeretArit50 () {
