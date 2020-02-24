@@ -48,7 +48,7 @@ void ModNumber (int X, int Y){
 /* Contoh : X = 10; Y = 3
    Output : 
    Hasil dari 10 mod 3 adalah 1 */
-   int Z = Z%Y;
+   int Z = X%Y;
    // Integer to String
    char Xst[100] ;
    char Yst[100] ;
@@ -67,21 +67,14 @@ int TambahOrKurang (int A, int B, int C){
     /* A adalah bilangan yang menunjukkan operasi apa yang digunakan, B dan C yang dioperasikan */
     int D;
     /* ALGORITMA */
-    printf("Masukkan A: ");
-    scanf("%d", &A);
-    printf("Masukkan B: ");
-    scanf("%d", &B);
-    printf("Masukkan C: ");
-    scanf("%d", &C);
-    if (A%2==0){
+	if (A==3){
         D=B-C;
     }
-    else {
-    	D=B+C;
+    else  {
+    	D=999999;
 	}
-	printf("Hasilnya adalah = %d",D);
-	
-	return 0;
+
+	return D;
 }
 
 boolean IsPrima (int X){

@@ -23,7 +23,7 @@ int main() {
 
     printf("Hasil perhitungan deret = %d\n", DeretArit50());
 
-    ModNumber(input_1, input_2);
+    ModNumber(input_1, input_3);
 
     printf("Hasil perhitungan fungsi kelima = %d\n", TambahOrKurang(input_3, input_1, input_2));
 
