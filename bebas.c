@@ -58,7 +58,7 @@ void ModNumber (int X, int Y){
    sprintf(Zst,"%d",Z);
    // End of int_str
    
-   printf("Hasil dari %s mod %s adalah %s", Xst,Yst, Zst);
+   printf("Hasil dari %s mod %s adalah %s \n", Xst,Yst, Zst);
 
 }
 
