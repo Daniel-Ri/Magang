@@ -33,15 +33,15 @@ void GanjilOrGenap (int X){
 */
 /*    std::string Xstr = to_string(X);
 */
-
-    string Xstr = ke_str(X);
+    char Xstr[100];
+    sprintf(Xstr, "%d", X);
 	if(X%2==0){
-		cout<<Xstr +" adalah bilangan genap"<<endl;
-	}
+		printf(" %s adalah bilangan genap\n", Xstr);
+    }
 	else{
-		cout<<Xstr + " adalah bilangan ganjil\n"<<endl;
-	}
+		printf(" %s adalah bilangan ganjil\n", Xstr);	}
 }
+
 
 int DeretArit50 ();
 /* Menghasilkan nilai dari 
