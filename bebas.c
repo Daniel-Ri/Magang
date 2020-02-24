@@ -15,22 +15,20 @@ void PrintHaiNTimes (int N) {
 		  for (i = 1; i<=N; i++) {
 		  printf("Hai \n");
 		  }
-		  return 0;
+		  
     }
-
 void GanjilOrGenap (int X){
 /* Jika X adalah bilangan ganjil maka muncul pesan
 */
 /*    std::string Xstr = to_string(X);
 */
-
-    string Xstr = ke_str(X);
+    char Xstr[100];
+    sprintf(Xstr, "%d", X);
 	if(X%2==0){
-		printf(Xstr +" adalah bilangan genap\n",);
-	}
+		printf(" %s adalah bilangan genap\n", Xstr);
+    }
 	else{
-		printf(Xstr + " adalah bilangan ganjil\n",);
-	}
+		printf(" %s adalah bilangan ganjil\n", Xstr);	}
 }
 
 int DeretArit50 () {
@@ -46,13 +44,22 @@ return jumlah;
 }
 
 void ModNumber (int X, int Y){
-    /* Implementasikan di sini */
-    /* KAMUS LOKAL */
-    int m == 0; //untuk menghitung hasil modulu 
+/* Mengirimkan hasil dari X mod Y ke layar (diakhiri newline) */
+/* Contoh : X = 10; Y = 3
+   Output : 
+   Hasil dari 10 mod 3 adalah 1 */
+   int Z = Z%Y;
+   // Integer to String
+   char Xst[100] ;
+   char Yst[100] ;
+   char Zst[100] ;
+   sprintf(Xst,"%d",X);
+   sprintf(Yst,"%d",Y);
+   sprintf(Zst,"%d",Z);
+   // End of int_str
+   
+   printf("Hasil dari %s mod %s adalah %s", Xst,Yst, Zst);
 
-    /* ALGORITMA */
-    m = X % Y;
-return m;
 }
 
 int TambahOrKurang (int A, int B, int C){

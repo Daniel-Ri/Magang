@@ -1,4 +1,4 @@
-+/* File      : bebas.h */
+/* File      : bebas.h */
 /* Tanggal   : 21 Februari 2020 */
 /* Topik     : Tugas cakru programming pandago pertama */
 
